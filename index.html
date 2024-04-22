@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logoColor.svg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo_img">
+                <img src="img/logoColor.svg" alt="logo color picker">
+            </div>
+            <!-- <div class="logo_txt">
+                <i>Ultimate</i> <br><b>Color</b> Piker
+            </div> -->
+        </div>
+        
+        <div class="logos">
+            <div>
+                <a target="_blank" href="https://github.com/AlbertoDiazEsteban"><img src="img/github.svg" alt="logo GitHub"></a>
+            </div>
+            <div>
+                <a target="_blank" href="https://www.linkedin.com/in/alberto-diaz-esteban/"><img src="img/linkedin.svg" alt="logo linkedin"></a>
+            </div>
+        </div>
+    </header>
+
+    <h1>Ultimate <b>color</b> picker</h1>
+    <p class="description">Ultimate Color Picker is designed to boost your productivity, allowing you to focus more on creativity and less on coding. Whether you're updating a website or crafting a new design, this tool ensures that finding and applying the perfect colors is as simple and efficient as possible.</p>
+
+    <div class="big-container">
+        <div class="container">
+            <input type="color" value="#43da86" id="color-primary">
+            <label for="color-primary"><b>Primary</b> <br>Color</label>
+            <p class="color-value" id="color-primary-value">#43da86</p>
+        </div>
+
+        <div class="container">
+            <input type="color" value="#dd9eff" id="color-secondary">
+            <label for="color-secondary"><b>Secondary</b> <br>Color</label>
+            <p class="color-value" id="color-secondary-value">#dd9eff</p>
+        </div>
+        
+        <div class="container">
+            <input type="color" value="#303030" id="color-dark">
+            <label for="color-dark"><b>Dark</b> <br>Color</label>
+            <p class="color-value" id="color-dark-value">#303030</p>
+        </div>
+        
+        <div class="container">
+            <input type="color" value="#ededed" id="color-light">
+            <label for="color-light"><b>Light</b> <br>Color</label>
+            <p class="color-value" id="color-light-value">#ededed</p>
+        </div>     
+    </div>   
+
+    <h2>Get Your <i><b>Colors</b></i> Ready for <code>Web</code></h2>
+    <div class="css-sass">
+        <img src="img/css.svg" alt="logo css">
+        <img src="img/sass.svg" alt="logo sass">
+    </div>
+
+    <div>
+        <div class="code-container" id="pure-css">
+            <h6>CSS Pure</h6>
+            <button onclick="copyToClipboard()"><img src="img/copy.svg" alt="copy logo"> Copy</button>
+            <pre id="css-code" class="language-css"></pre>
+        </div>
+        
+        <div class="code-container">
+            <h6>CSS Variables</h6>
+            <button onclick="copyCssVariablesCode()"><img src="img/copy.svg" alt="copy logo"> Copy</button>
+            <pre id="css-variables-code" class="language-css"></pre>
+        </div>
+        
+        <div class="code-container">
+            <h6>SASS Variables</h6>
+            <button onclick="copySassCode()"><img src="img/copy.svg" alt="copy logo"> Copy</button>
+            <pre id="sass-code" class="language-css"></pre>
+        </div>
+    </div>
+
+    <footer>
+        <div class="links-container">
+            <div>
+                <img src="img/linkedin.svg" alt="logo">
+                <a target="_blank" href="https://www.linkedin.com/in/alberto-diaz-esteban/">Visit my LinkedIn</a>
+            </div>
+            <div>
+                <img src="img/github.svg" alt="logo">
+                <a target="_blank" href="https://github.com/AlbertoDiazEsteban">Visit my GitHub</a>
+            </div>
+            <div>
+                <img src="img/logo.svg" alt="logo">
+                <a target="_blank" href="https://alberto-diaz-esteban-web.vercel.app/index.html">Visit Portfolio Web</a>  
+            </div>
+        </div>
+        <div class="footer-credit">
+            Created by Alberto Diaz Esteban
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+        
+</body>
+</html>
